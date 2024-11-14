@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a1a1a;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        background-color: #42771e;
+        border-radius: 8px;
+        padding: 10px;
+        padding-top: 0;
+        width: 300px;
+      }
+      h2 {
+        color: #c3c9c2;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      input {
+        margin-bottom: 5px;
+        padding: 10px;
+        background-color: #229d07;
+        border: 1px solid black;
+        border-radius: 5px;
+        
+      }
+      button {
+        background-color: #377b30;
+        padding: 10;
+        border-radius: 5px;
+        color: #fff;
+        border: 1px solid black;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #1bbe29;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Signup</h2>
+      <form>
+        <input type="text" placeholder="First name" />
+        <input type="text" placeholder="Last name" />
+        <input type="email" placeholder="email" />
+        <input type="password" placeholder="password" />
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  </body>
+</html>
